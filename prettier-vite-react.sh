@@ -48,6 +48,13 @@ else
   sed -i '/"scripts": {/a\    "format": "prettier --write .",' package.json
 fi
 
+PACKAGE_JSON="./package.json"
+if [[ "$OSTYPE" == "darwin"* ]]; then
+  sed -i '' 's/\^//g' "$PACKAGE_JSON"
+else
+  sed -i 's/\^//g' "$PACKAGE_JSON"
+fi
+
 echo -e "${GREEN}=========================================================${NC}"
 echo -e "${RED}  ${BOLD}Follow us on GitHub:${NC}"
 echo -e "${RED}  ${BOLD}https://github.com/Synergy2Devs${NC}"
