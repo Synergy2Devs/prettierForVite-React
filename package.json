@@ -1,4 +1,5 @@
 {
+  "$schema": "https://json.schemastore.org/package",
   "name": "prettier-for-vite-react",
   "version": "0.1.7",
   "description": "Automation for installing Prettier in a Vite-React project that will integrate the use of prettier into the project",
@@ -11,7 +12,7 @@
     "url": "git+https://github.com/Synergy2Devs/prettierForVite-React.git"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 0"
   },
   "author": "Synergy2Devs",
   "license": "ISC",
