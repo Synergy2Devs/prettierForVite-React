@@ -1,6 +1,6 @@
 {
 	"name": "prettier-for-vite-react",
-	"version": "0.1.3",
+	"version": "0.1.4",
 	"description": "Automation for installing Prettier in a Vite-React project that will integrate the use of prettier into the project",
 	"main": "prettier-vite-react.sh",
 	"bin": {
