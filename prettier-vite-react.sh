@@ -6,8 +6,11 @@ YELLOW='\033[1;33m'
 RED='\033[0;31m'
 BOLD='\033[1m'
 NC='\033[0m'
+
+VERSION=$(npm view prettier-for-vite-react version 2>/dev/null)
+
 echo -e "${GREEN}=========================================================${NC}"
-echo -e "${BLUE}  ${BOLD}prettierForViteReact${NC}"
+echo -e "${BLUE}  ${BOLD}prettierForViteReact v${VERSION} ${NC}"
 echo -e "${BLUE}  Installation script ViteReact Project${NC}"
 echo -e "${RED}${BOLD}  Author: Synergy2Devs${NC}"
 echo -e "${YELLOW}${BOLD}  Developers: Marcelo Robin / Jesús García${NC}"
