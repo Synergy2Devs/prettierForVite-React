@@ -22,9 +22,6 @@ npm install -D prettier eslint-config-prettier
 if [ -f .eslintrc.cjs ]; then
   sed -i '/extends:/a\ "plugin:prettier/recommended",\n "eslint-config-prettier",\n' .eslintrc.cjs
   sed -i '/rules:/a\ "no-unused-vars": "warn",\n' .eslintrc.cjs
-  sed -i '/parserOptions:/,/}/{
-    s/parserOptions: {/parserOptions: { ecmaFeatures: { jsx: true },/
-  }' .eslintrc.cjs
 else
   echo ".eslintrc.cjs not found!!!"
 fi
