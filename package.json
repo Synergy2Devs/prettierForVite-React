@@ -1,0 +1,18 @@
+{
+	"name": "prettierForVite-React",
+	"version": "0.1.0",
+	"description": "Automation for installing Prettier in a Vite-React project that will integrate the use of prettier into the project",
+	"main": "prettier-vite-react.sh",
+	"bin": {
+		"prettier-vite-react": "prettier-vite-react.sh"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Synergy2Devs",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Synergy2Devs/prettierForVite-React/issues"
+	},
+	"homepage": "https://github.com/Synergy2Devs/prettierForVite-React#readme"
+}
