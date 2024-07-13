@@ -5,7 +5,7 @@
   "description": "Automation for installing Prettier in a Vite-React project that will integrate the use of prettier into the project",
   "main": "prettier-vite-react.sh",
   "bin": {
-    "prettier-vite-react": "prettier-vite-react.sh"
+    "prettier-for-vite-react": "./index.js"
   },
   "repository": {
     "type": "git",
