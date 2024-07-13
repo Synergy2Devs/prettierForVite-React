@@ -1,7 +1,8 @@
 name: prettierForViteReact
 on:
   push:
-    tags: 'v*.*.*'
+    tags:
+      - 'v*.*.*'
   release:
     types: [created]
 
