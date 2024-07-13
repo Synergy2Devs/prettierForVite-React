@@ -11,7 +11,7 @@ VERSION=$(npm view prettier-for-vite-react version 2>/dev/null)
 
 echo -e "${GREEN}=========================================================${NC}"
 echo -e "${BLUE}  ${BOLD}prettierForViteReact v${VERSION} ${NC}"
-echo -e "${BLUE}  Installation script ViteReact Project${NC}"
+echo -e "${BLUE}  Installation script Prettier for Vite-React Project${NC}"
 echo -e "${RED}${BOLD}  Author: Synergy2Devs${NC}"
 echo -e "${YELLOW}${BOLD}  Developers: Marcelo Robin / Jesús García${NC}"
 echo -e "${GREEN}=========================================================${NC}"
@@ -20,10 +20,10 @@ echo ""
 npm install -D prettier eslint-config-prettier
 
 if [ -f .eslintrc.cjs ]; then
-    sed -i '/extends:/a\ "plugin:prettier/recommended",\n "eslint-config-prettier",\n' .eslintrc.cjs
-    sed -i '/rules:/a\ "no-unused-vars": "warn",\n' .eslintrc.cjs
+  sed -i '/extends:/a\ "plugin:prettier/recommended",\n "eslint-config-prettier",\n' .eslintrc.cjs
+  sed -i '/rules:/a\ "no-unused-vars": "warn",\n' .eslintrc.cjs
 else
-    echo ".eslintrc.cjs not found!!!"
+  echo ".eslintrc.cjs not found!!!"
 fi
 
 echo "dist" > .eslintignore
