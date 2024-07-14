@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/package",
   "name": "prettier-for-vite-react",
-  "version": "0.1.12",
+  "version": "0.1.13",
   "description": "Automation for installing Prettier in a Vite-React project that will integrate the use of prettier into the project",
   "main": "prettier-vite-react.sh",
   "bin": {
